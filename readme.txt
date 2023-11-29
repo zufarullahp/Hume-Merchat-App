@@ -57,5 +57,39 @@ npx shadcn-ui@latest add sheet
 
 npx shadcn-ui@latest add separator
 
+start building cart with sheet ui library
+add image for empty cart 
+
+next step to integrate our backend
+
+then close 
+
+Start building express js for backend 
+
+create server.js as a main gateaway 
+
+yarn add express
+yarn add -D @types/express
+yarn add dotenv
+yarn add payload
+yarn add cross-env
 
 
+create middle ware at lib utils 
+
+install depedency
+yarn add @payloadcms/richtext-slate @payloadcms/bundler-webpack @payloadcms/db-mongodb
+
+"dev": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts nodemon",
+
+add nodemon script json scrtip  nodemon.json
+
+add tsconfig.server.json
+
+set up mongodb
+
+yarn dev
+
+then close 
+
+start building Auth
