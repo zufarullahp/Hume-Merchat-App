@@ -47,7 +47,7 @@ const Navbar = () =>{
                                     )}
                                         
                                     {user ? (<p></p>) : (
-                                        <Link href='/sing-up' className={buttonVariants({
+                                        <Link href='/sign-up' className={buttonVariants({
                                             variant:'ghost'
                                         })}>
                                             Create Account

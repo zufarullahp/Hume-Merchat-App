@@ -93,3 +93,35 @@ yarn dev
 then close 
 
 start building Auth
+
+page layout 
+
+how do we really handle 
+
+rule based auth lib that can handle the logic
+yarn add react-hook-form @hookform/resolvers zod sonner
+
+use zod something and create folder in lib with the validator logical
+
+implement the logic to ui/ux 
+
+move to handle the data using trpc 
+>yarn add @trpc/client @trpc/next @trpc/react-query @trpc/server @tanstack/react-query
+
+a lot config with trpc 
+
+send email verivication
+
+then go to resend.com register and add api key 
+
+add .env resend api key
+
+yarn add nodemailer
+
+
+
+
+
+
+
+

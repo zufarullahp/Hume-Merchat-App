@@ -13,12 +13,12 @@ const perks = [
   {
     name:"Guaranteed Quality",
     icon:CheckCircle,
-    description:"Every perfume on our platform is verified by our team to ensure our highest quality "
+    description:"Every perfume on our platform is verified by our team to ensure our highest quality"
   },
   {
     name:"For the Planet",
     icon:Leaf,
-    description:"we've pledge 1% of sales to the presevation and restoration of the natural "
+    description:"we've pledge 1% of sales to the preservation and restoration of nature"
   },
 ]
 
@@ -37,7 +37,7 @@ export default function Home() {
             validated by our team or community to ensure our best quality
           </p>
           <div className='mt-6 text-lg max-w-prose text-muted-foreground'>
-            <Link href='/products' className={buttonVariants()}> Browse Perfume</Link>
+            <Link href='/products' className={buttonVariants()}>Browse Perfume</Link>
             <Button variant='link'>Our quality promise &rarr;</Button>
           </div>
         </div>
